@@ -1,0 +1,23 @@
+{
+  "name": "jiaxiao_mis",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:heimxd/jiaxiao_mis.git",
+  "author": "guoxuedong163@163.com",
+  "license": "Apache",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js",
+    "build": "webpack --config webpack.config.js --mode=production"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^2.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
