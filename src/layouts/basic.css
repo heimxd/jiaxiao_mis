@@ -1,0 +1,10 @@
+.page-container {
+  display: flex;
+}
+.page-left {
+  width: 300px;
+  flex-shrink: 0;
+}
+.page-right {
+  flex-grow: 1;
+}
